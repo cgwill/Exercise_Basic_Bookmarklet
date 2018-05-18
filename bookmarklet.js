@@ -11,6 +11,7 @@
 
   for (var i = 0; i < images.length; i++) {
     console.log(images[i].src);
+    console.log(images[i].alt);
     images[i].src = "";
   }
 })();
